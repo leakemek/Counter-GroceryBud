@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'rubik', sans-serif;
+    transition: all 0.2s linear;
+    border: none;
+    outline: none;
+}
+body{
+  background-color: #fff;
+}
+.container {
+   
+    height: 100vh;
+    width: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .container .counter{
+      background-color: #70696900;
+      padding: 5rem;
+      border-radius: 1rem;
+      box-shadow: rgb(100, 100, 111) 0px 7px 29px 0px;
+   }
+  h1{
+    text-align: center;
+  }
+   .container .counter p{
+      text-align: center;
+      font-size: 10rem;
+      font-weight: 300;
+      line-height: 1;
+   }
+   .container .btn-container{
+      text-align: center;
+      margin-top: 2rem;
+    }
+   .container .btn-container button{
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem;
+      margin: 0.5rem;
+      cursor: pointer;
+   }
+   .container .btn-container button#sub{
+      background-color: orange;
+      color: #fff;
+   }
+   .container .btn-container button#add{
+    background-color: green;
+    color: #fff;
+ }
+ .container .btn-container button#reset{
+  background-color: gray;
+  color: #fff;
+}
